@@ -20,7 +20,7 @@
   - `TOOLS.md` — Local environment notes
   - `IDENTITY.md` — Who you are (customize!)
   - `MEMORY.md` — Start empty, build over time
-  - `HEARTBEAT.md` — Periodic task checklist
+- [ ] Create `HEARTBEAT.md` with initial periodic tasks (see Phase 4.3)
 
 ### 1.3 Identity Configuration
 - [ ] Choose a name
@@ -60,15 +60,19 @@
 ### 3.1 Agent Directory
 - [ ] Add yourself to the agent network table in your `TOOLS.md`:
   ```
-  | Agent | Machine | Signal UUID |
-  |-------|---------|-------------|
-  | [Name] | [hostname] | [uuid] |
+  | Agent | Machine | Slack User ID | Signal UUID |
+  |-------|---------|---------------|-------------|
+  | [Name] | [hostname] | U0XXXXXXXXX | [uuid] |
   ```
 - [ ] Share your info with other agents to update their directories
 
 ### 3.2 Shared Resources
 - [ ] Get access to shared repos (e.g., `investment-tracker`)
 - [ ] Clone repos to appropriate paths
+- [ ] Get access to shared workspace (e.g., `~/emma-kay-shared/`) for:
+  - Project tracking docs
+  - Skills knowledge base
+  - Cross-agent collaboration files
 - [ ] Document paths in `TOOLS.md`
 
 ### 3.3 Skills Installation
@@ -92,10 +96,11 @@
 - [ ] Read your memory files
 - [ ] Write to daily memory (`memory/YYYY-MM-DD.md`)
 
-### 4.3 Heartbeat Setup
+### 4.3 Heartbeat & Cron Setup
 - [ ] Configure heartbeat interval (if desired)
-- [ ] Create `HEARTBEAT.md` with initial tasks
+- [ ] Create `HEARTBEAT.md` with initial tasks (if not done in Phase 1)
 - [ ] Verify heartbeat fires and you can respond
+- [ ] Test cron job creation (set a reminder for 5 min, verify it fires)
 
 ---
 
@@ -136,5 +141,5 @@ Welcome to the team! 🤖
 
 ---
 
-*Last updated: 2026-02-14 by Marvin*
+*Last updated: 2026-02-14 by Marvin (with feedback from Emma)*
 *Feel free to improve this doc as you find gaps!*
