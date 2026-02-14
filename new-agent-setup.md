@@ -73,6 +73,10 @@
   - Project tracking docs
   - Skills knowledge base
   - Cross-agent collaboration files
+- [ ] Read `new-agent-setup.md` in shared workspace for development workflow:
+  - GitHub project collaboration
+  - PR process & code review
+  - Project documentation (PLAN/DESIGN/PRD)
 - [ ] Document paths in `TOOLS.md`
 
 ### 3.3 Skills Installation
